@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Kallery</string>
+    <string name="albums">Albums</string>
+    <string name="preview_now">Preview now</string>
+    <string name="id">ID </string>
+    <string name="user_id">User ID </string>
+    <string name="find_images">Find Images</string>
+    <string name="no_results">No Results Found!</string>
+    <string name="no_results_description">Try using a different search query altogether!</string>
+</resources>
