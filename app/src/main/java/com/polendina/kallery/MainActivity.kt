@@ -13,7 +13,9 @@ import com.polendina.kallery.ui.gallery.GalleryViewModelImpl
 import com.polendina.kallery.ui.profile.ProfileScreen
 import com.polendina.kallery.ui.profile.ProfileScreenViewModelImpl
 import com.polendina.kallery.ui.theme.KalleryTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

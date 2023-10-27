@@ -1,11 +1,13 @@
 package com.polendina.kallery.di
 
+import android.app.Application
 import com.polendina.kallery.data.network.GalleryApi
 import com.polendina.kallery.data.repository.GalleryRepository
 import com.polendina.kallery.data.repository.JsonPlaceHolderRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
+import dagger.hilt.android.HiltAndroidApp
 import dagger.hilt.components.SingletonComponent
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -32,3 +34,6 @@ object AppModule {
     }
 
 }
+
+@HiltAndroidApp
+class MyApp: Application()

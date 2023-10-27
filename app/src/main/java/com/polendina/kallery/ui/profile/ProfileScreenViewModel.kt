@@ -29,7 +29,7 @@ interface ProfileScreenViewModel {
 
 @HiltViewModel
 class ProfileScreenViewModelImpl @Inject constructor(
-    val photoService: GalleryRepository
+    private val photoService: GalleryRepository
 ): ViewModel(), ProfileScreenViewModel {
     private var _currentUser: MutableState<User>? = null
     private val _albums: SnapshotStateList<Album> = mutableStateListOf()
